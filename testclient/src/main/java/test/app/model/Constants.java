@@ -1,0 +1,11 @@
+package test.app.model;
+
+public interface Constants {
+
+    String QUEUE_XA_CATEGORY_REQUEST = "CATEGORY.REQUEST.XA";
+    String QUEUE_XA_CATEGORY_RESPONSE = "CATEGORY.RESPONSE.XA";
+
+    String CATEGORY_FINISHED = "GET_CATEGORY_FINISHED";
+    String CATEGORY_IN_PROGRESS = "GET_CATEGORY_IN_PROGRESS";
+
+}
